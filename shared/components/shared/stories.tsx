@@ -7,6 +7,7 @@ import { Container } from './container';
 import { cn } from '@/shared/lib/utils';
 import { X } from 'lucide-react';
 import ReactStories from 'react-insta-stories';
+import Image from "next/image";
 
 interface Props {
   className?: string;
@@ -36,20 +37,21 @@ export const Stories: React.FC<Props> = ({ className }) => {
 
   return (
     <>
-      <Container className={cn('flex items-center justify-between gap-2 my-10', className)}>
+      <Container className={cn('flex items-center justify-between gap-2 my-10 overflow-x-auto', className)}>
         {stories.length === 0 &&
           [...Array(6)].map((_, index) => (
             <div key={index} className="w-[200px] h-[250px] bg-gray-200 rounded-md animate-pulse" />
           ))}
 
         {stories.map((story) => (
-          <img
+          <Image
             key={story.id}
             onClick={() => onClickStory(story)}
             className="rounded-md cursor-pointer"
             height={250}
             width={200}
             src={story.previewImageUrl}
+            alt="image"
           />
         ))}
 

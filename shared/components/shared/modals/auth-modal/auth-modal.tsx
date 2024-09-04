@@ -6,6 +6,7 @@ import { signIn } from 'next-auth/react';
 import React from 'react';
 import { LoginForm } from './forms/login-form';
 import { RegisterForm } from './forms/register-form';
+import Image from "next/image";
 
 interface Props {
   open: boolean;
@@ -44,7 +45,7 @@ export const AuthModal: React.FC<Props> = ({ open, onClose }) => {
             }
             type="button"
             className="gap-2 h-12 p-2 flex-1">
-            <img className="w-6 h-6" src="https://github.githubassets.com/favicons/favicon.svg" />
+            <Image alt="image" className="w-6 h-6" src="https://github.githubassets.com/favicons/favicon.svg" />
             GitHub
           </Button>
 
@@ -58,7 +59,7 @@ export const AuthModal: React.FC<Props> = ({ open, onClose }) => {
             }
             type="button"
             className="gap-2 h-12 p-2 flex-1">
-            <img
+            <Image alt="image"
               className="w-6 h-6"
               src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
             />
@@ -67,7 +68,7 @@ export const AuthModal: React.FC<Props> = ({ open, onClose }) => {
         </div>
 
         <Button variant="outline" onClick={onSwitchType} type="button" className="h-12">
-          {type !== 'login' ? 'Войти' : 'Регистрация'}
+          {type !== 'login' ? 'Login' : 'Registration'}
         </Button>
       </DialogContent>
     </Dialog>

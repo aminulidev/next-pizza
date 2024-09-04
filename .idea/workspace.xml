@@ -6,8 +6,42 @@
   <component name="ChangeListManager">
     <list default="true" id="23d6144f-725a-451a-bbec-c03ee7300aa8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/components/shared/modals/choose-product-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/modals/choose-product-modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(checkout)/checkout/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(checkout)/checkout/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(checkout)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(checkout)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/not-auth/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/not-auth/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/auth/me/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/auth/me/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/auth/verify/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/auth/verify/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/cart/[id]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/cart/[id]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/cart/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/cart/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/checkout/callback/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/checkout/callback/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/cart-drawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/cart-drawer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/cart-item-details/cart-item-details-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/cart-item-details/cart-item-details-image.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/checkbox-filters-group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/checkbox-filters-group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/checkout-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/checkout-sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-address-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-address-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-personal-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/checkout/checkout-personal-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/choose-pizza-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/choose-pizza-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/choose-product-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/choose-product-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/email-temapltes/order-success.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/email-temapltes/order-success.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/email-temapltes/pay-order.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/email-temapltes/pay-order.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/email-temapltes/verification-user.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/email-temapltes/verification-user.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/info-block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/info-block.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/auth-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/auth-modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/login-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/login-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/register-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/register-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/schemas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/modals/auth-modal/forms/schemas.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/product-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/product-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/product-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/product-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/profile-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/profile-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/search-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/search-input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/shared/stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/shared/stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/constants/checkout-form-schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/constants/checkout-form-schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/constants/pizza.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/constants/pizza.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/get-pizza-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/get-pizza-details.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +148,11 @@
       <workItem from="1723181407856" duration="18131000" />
       <workItem from="1723255679104" duration="3266000" />
       <workItem from="1725240061518" duration="5463000" />
-      <workItem from="1725377273419" duration="2737000" />
+      <workItem from="1725377273419" duration="3100000" />
+      <workItem from="1725380801152" duration="119000" />
+      <workItem from="1725381037825" duration="339000" />
+      <workItem from="1725381580451" duration="1592000" />
+      <workItem from="1725413763704" duration="3751000" />
     </task>
     <servers />
   </component>
